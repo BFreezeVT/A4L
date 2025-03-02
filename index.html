@@ -3,165 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Action 4 Liberty PAC – Defend Conservatism</title>
+    <title>Action 4 Liberty PAC</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('american-flag.jpg') no-repeat center center fixed;
+            background-image: url('assets/images/flag.jpg'); /* Update with actual file path */
             background-size: cover;
+            background-position: center;
             color: white;
+            font-family: Arial, sans-serif;
             text-align: center;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-        }
-        .logo {
-            max-width: 200px;
-        }
-        nav {
-            background: #bf0a30;
-            padding: 15px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            background: #002868;
         }
         .container {
-            width: 90%;
             max-width: 800px;
             margin: auto;
-            padding: 40px 0;
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            padding: 30px;
-        }
-        h1, h2 {
-            color: #ffcc00;
-        }
-        .cta {
-            background: #bf0a30;
             padding: 20px;
-            font-size: 22px;
-            font-weight: bold;
+            background: rgba(0, 0, 0, 0.7); /* Slightly darkened background for readability */
+            border-radius: 10px;
+        }
+        .logo {
+            width: 200px;
+            margin: 20px auto;
+            display: block;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .donate-button {
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
             border-radius: 5px;
             display: inline-block;
-            margin: 20px 0;
-        }
-        .cta a {
-            color: white;
             text-decoration: none;
-        }
-        .cta:hover {
-            background: #8b0000;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            margin-top: 40px;
-        }
-        .donate-buttons button {
-            background: #bf0a30;
-            color: white;
-            padding: 15px;
-            border: none;
-            margin: 10px;
-            cursor: pointer;
-            font-size: 18px;
-            font-weight: bold;
-            width: 200px;
-            border-radius: 5px;
-        }
-        .donate-buttons button:hover {
-            background: #8b0000;
-        }
-        form input {
-            padding: 10px;
-            width: 60%;
-            border: 2px solid #002868;
-            font-size: 16px;
-        }
-        form button {
-            padding: 10px;
-            background: #bf0a30;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
             font-weight: bold;
         }
-        form button:hover {
-            background: #8b0000;
+        .donate-button img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <img src="action4liberty-logo.png" alt="Action 4 Liberty PAC" class="logo">
-    </header>
+    <!-- PAC Logo -->
+    <img src="assets/images/PAC.svg" alt="Action 4 Liberty PAC Logo" class="logo">
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#mission">Mission</a>
-        <a href="#donate">Donate</a>
-        <a href="#contact">Stay in Touch</a>
-    </nav>
+    <div class="container">
 
-    <div class="container" id="about">
-        <h1>About Us</h1>
-        <p><strong>Action 4 Liberty PAC</strong> is dedicated to one bold mission: RINO Hunting.</p>
-        <p>We’re a grassroots-driven political action committee fighting to root out Republicans In Name Only—those who talk the talk but fail to walk the walk on core conservative principles.</p>
-        <p>Our goal is to hold politicians accountable, support true liberty-minded candidates, and restore integrity to the Republican Party. We champion limited government, individual freedom, and the values that built this nation.</p>
-        <p>Join us in the hunt for real change.</p>
-    </div>
-
-    <div class="container" id="mission">
-        <h1>Mission Statement</h1>
-        <p>Action 4 Liberty PAC is committed to identifying, exposing, and defeating Republicans In Name Only (RINOs) who betray conservative values.</p>
-        <p>We exist to empower grassroots patriots, back authentic liberty-focused candidates, and ensure the Republican Party stays true to its principles of limited government, individual liberty, and constitutional integrity.</p>
-        <p>Through relentless advocacy and strategic action, we purge political cowardice and advance a bold, freedom-first agenda.</p>
-    </div>
-
-    <div class="container" id="donate">
-        <h1>Reasons to Donate</h1>
-        <p>RINOs are choking our party—gutless frauds who ditch liberty for applause. Your cash powers our hunt: we expose them, back real fighters, and rip out the rot.</p>
-        <p>Sick of spineless sellouts? Fund the purge. Action 4 Liberty PAC hits hard—because freedom’s worth it.</p>
-        
-        <h2>Donate to the Fight</h2>
-        <p>Your donation will go directly toward:</p>
-        <p>Defending conservative values | Holding RINOs accountable | Electing true liberty-first leaders</p>
-        <div class="donate-buttons">
-            <button onclick="window.location.href='https://anedot.com/users/uc11213c9f62c01e528d3/donations'">$25 – Ammo for the Fight</button>
-            <button onclick="window.location.href='https://anedot.com/users/uc11213c9f62c01e528d3/donations'">$50 – Strengthen the Base</button>
-            <button onclick="window.location.href='https://anedot.com/users/uc11213c9f62c01e528d3/donations'">$100 – Advance the Cause</button>
-            <button onclick="window.location.href='https://anedot.com/users/uc11213c9f62c01e528d3/donations'">$250 – Flip a Seat Red</button>
-            <button onclick="window.location.href='https://anedot.com/users/uc11213c9f62c01e528d3/donations'">$500+ – Secure Victory</button>
+        <!-- Mission Statement -->
+        <div class="section">
+            <h2>Mission Statement</h2>
+            <img src="assets/images/rino-hunter.jpg" alt="Hunter hunting RINOs" style="width:100%; border-radius:10px;">
+            <p>Action 4 Liberty PAC is committed to identifying, exposing, and defeating Republicans In Name Only (RINOs) who betray conservative values. We exist to empower grassroots patriots, back authentic liberty-focused candidates, and ensure the Republican Party stays true to its principles of limited government, individual liberty, and constitutional integrity. Through relentless advocacy and strategic action, we aim to purge political cowardice and advance a bold, freedom-first agenda.</p>
         </div>
-    </div>
 
-    <div class="container" id="contact">
-        <h1>Stay in Touch</h1>
-        <p>Get exclusive updates on RINO takedowns, primary battles, and ways to help.</p>
-        <form action="https://your-email-signup-link-here" method="POST">
-            <input type="email" name="email" placeholder="Enter your email" required>
-            <button type="submit">Join the Fight</button>
-        </form>
-    </div>
+        <!-- About Us -->
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Action 4 Liberty PAC is dedicated to one bold mission: RINO Hunting. We’re a grassroots-driven political action committee fighting to root out Republicans In Name Only—those who talk the talk but fail to walk the walk on core conservative principles. Our goal is to hold politicians accountable, support true liberty-minded candidates, and restore integrity to the Republican Party. With unwavering resolve, we champion limited government, individual freedom, and the values that built this nation. Join us in the hunt for real change.</p>
+        </div>
 
-    <footer>
-        <p>Action 4 Liberty PAC – Fighting for True Conservatism</p>
-    </footer>
+        <!-- Donate Section -->
+        <div class="section">
+            <h2>Donate</h2>
+            <p>RINOs are choking our party—gutless frauds who ditch liberty for applause. Your cash powers our hunt: we expose them, back real fighters, and rip out the rot. Sick of spineless sellouts? Fund the purge. Action 4 Liberty PAC hits hard—because freedom’s worth it.</p>
+            
+            <a href="#" class="donate-button">Take Aim at RINOs <img src="assets/images/target-icon.png" alt="Target Icon"></a>
+            <a href="#" class="donate-button">Support Real Patriots <img src="assets/images/flag-icon.png" alt="Flag Icon"></a>
+        </div>
+
+        <!-- Stay in Touch -->
+        <div class="section">
+            <h2>Stay in Touch</h2>
+            <p>Sign up for updates, action alerts, and exclusive insights on the fight against RINOs.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
+    </div>
 
 </body>
 </html>
